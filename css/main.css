@@ -1,6 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
+<<<<<<< HEAD
 button{
   width:50px;
 }
@@ -64,3 +65,75 @@ color:#000;
 ul li:first-child a:active{
 color:#fff;
 }
+=======
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.touppercase{
+	text-transform: uppercase;
+}
+#superior-menu{
+	padding:10px 20px 10px 40%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#img{
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	display: inline-block;
+	vertical-align: middle;
+}
+.fa.fa-bars{
+	font-size: 1.6em;
+	vertical-align: middle;
+	float:right;
+}
+#hq-menu{
+	background-color: #303030;
+	color:#FFF;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
+#hq-menu p{
+	margin: 0;
+	font-size: 1.8em;
+	margin-bottom: 5px;
+	display: inline-block;
+	font-weight: bold;
+}
+#hq-menu ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	float: right;
+
+}
+#hq-menu li{
+	display: inline-block;
+	font-size: 1.2em;
+	margin-right: 30px;
+	line-height: 2.45em;
+}
+#hq-menu li a{
+	color:#FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+#hq-menu li a:hover{
+	border-bottom: 4px solid #ffc107;
+	padding-bottom: 8px;
+}
+.menu-active{
+	border-bottom: 4px solid #ffc107;
+	padding-bottom: 8px;
+}
+>>>>>>> 39839282f71781650196cefa4e0526b01c78f2d4
