@@ -21,9 +21,49 @@
         </ol>
       </div>
     </header>
-	<!-- Base de datos -->
-	<script src="./js/data.js"></script>
-	<!-- Aquí va tus archivos JS -->
-    <script src="./js/app.js"></script>
+    <section id="students-section">
+      <div>
+        
+      </div>
+      <div id="state">
+        <h3>Estado</h3>
+        <input type="checkbox" value="active" id="active-check"> Activa <br>
+        <input type="checkbox" value="inactive" id="inactive-check"> Inactiva <br>
+        <input type="checkbox" value="over-tecnic"> Sobre 75% Técnico <i class="fa fa-caret-up" aria-hidden="true"></i><br>
+        <input type="checkbox" value="under-tecnic"> Bajo 75% Técnico <i class="fa fa-caret-down" aria-hidden="true"></i><br>
+        <input type="checkbox" value="over-hse"> Sobre 75% HSE <i class="fa fa-caret-up" aria-hidden="true"></i><br>
+        <input type="checkbox" value="under-hse"> Bajo 75% HSE <i class="fa fa-caret-down" aria-hidden="true"></i><br>
+      </div>
+      <div id="container-students">
+        <div class="student student-active">
+          <div class="img-student"></div>
+          <div class="info-student">
+            <h4>Nombre Alumna</h4>
+            <h5>alumna activa</h5>
+            <p  class="schedule"> turno am</p>
+          </div>
+          <div class="student-points">
+            <div class="tecnic-points">
+              <p>Técnico</p>
+              <p>70%</p>
+              <p>900 pts</p>
+            </div>
+            <div class="hse-points">
+              <p>HSE</p>
+              <p>100%</p>
+              <p>1200pts</p>
+            </div>
+            <div class="assistance-points">
+              <p>Asistencia</p>
+              <p>80%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  	<!-- Base de datos -->
+  	<script src="./js/data.js"></script>
+  	<!-- Aquí va tus archivos JS -->
+      <script src="./js/app-students.js"></script>
   </body>
 </html>

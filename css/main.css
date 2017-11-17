@@ -1,74 +1,7 @@
-/*
- * Estilos de tu proyecto
- */
-<<<<<<< HEAD
-button{
-  width:50px;
-}
- .profesora{
-   color:black;
-   display: inline-block;
-   margin:30px;
-   list-style:none;
-  margin-left: 40%;
-  }
-
-  li{
-  background-color: #000;
-  color:#fff;
-  padding-top: 30px;
-  margin:10px;
-  padding: 40px;
-  width: 200px;
-
-
-  }
-nav{
-width: 200px;
-text-align: center;
-}
-
-ul{
-
-  list-style: none;
-  margin:0;
-  padding:0;
-  line-height: 30px;
-  text-align: center;
-}
-
-
-
-a{
-
-  display:block;
-  text-decoration: none;
-  color:#000;
-  padding-left: 10px;
-}
-
-a:hover{
-  background: #f9a91a;
-}
-
-a:active{
-  background: #333;
-}
-
-
-ul li:first-child a{
-  color:#fff;
-}
-ul li:first-child a:hover{
-color:#000;
-}
-ul li:first-child a:active{
-color:#fff;
-}
-=======
 body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 125px;
 }
 header{
 	position: fixed;
@@ -83,6 +16,7 @@ header{
 	padding:10px 20px 10px 40%;
 	box-sizing: border-box;
 	overflow: hidden;
+	background-color: #FFF;
 }
 #img{
 	width: 200px;
@@ -136,4 +70,64 @@ header{
 	border-bottom: 4px solid #ffc107;
 	padding-bottom: 8px;
 }
->>>>>>> 39839282f71781650196cefa4e0526b01c78f2d4
+#state{
+	width: 29%;
+	margin: 15px 0 0 15px;
+	background-color: #dddfe5;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: text-top;
+	padding: 0 15px 20px;
+}
+#state input{
+	margin-bottom: 15px;
+	vertical-align: -2px;
+}
+#container-students{
+	width: 68%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 15px;
+	vertical-align: text-top;
+}
+.img-student{
+	width: 115px;
+	height: 115px;
+	/*background-color: grey;*/
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: text-top;
+}
+.student{
+	background-color: #dddfe5;
+	margin-bottom: 10px;
+}
+.info-student{
+	display: inline-block;
+	vertical-align: text-top;
+	padding-left: 7px;
+	padding-top: 15px;
+}
+.info-student h5{
+	margin: 0;
+	font-size: .78em;
+	text-transform: uppercase;
+}
+.info-student h4{
+	margin: 0;
+}
+.info-student p{
+	display: inline-block;
+	margin: 0 10px 0 0;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+}
+.student-active{
+	border-right: 15px solid #1ABC9C;
+}
+.student-inactive{
+	border-right: 15px solid #ff3737;
+}
+.student-points div{
+	display: inline-block;
+}
