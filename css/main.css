@@ -371,8 +371,8 @@ canvas{
 	position: absolute;
 	color: #696969;
 	font-size: 3em;
-	top: 77px;
-	left: 153px;
+	top: 87px;
+	left: 130px;
 	z-index: -1;
 }
 #overTotal{
@@ -383,7 +383,7 @@ canvas{
 	color: #696969;
 	font-size: 1.6em;
 	top: 300px;
-	left: 142px;
+	left: 118px;
 	z-index: -1;
 }
 #charts-div{
