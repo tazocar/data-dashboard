@@ -2,14 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="css/main.css">
-    <title>Data Dashboard</title>
-  </head>
-  <body>
-
-=======
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Data Dashboard - General</title>
@@ -18,43 +11,48 @@
     <header>
       <div id="superior-menu">
         <div id="img"></div>
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
       </div>
       <div id="hq-menu" class="touppercase">
-        <p>Santiago de Chile</p>
+        <select name="country" id="country">
+          <option value="scl">Santiago de Chile</option>
+          <option value="aqp">Arequipa</option>
+          <option value="lim">Lima</option>
+          <option value="cdmx">Ciudad de México</option>
+        </select>
         <ol>
           <li><a href="index.html" class="menu-active">General</a></li>
           <li><a href="students.html">Estudiantes</a></li>
+          <li><a href="profesores.html">Profesores</a></li>
         </ol>
       </div>
     </header>
     <section>
-      
+      <div id="charts-div">
+        <canvas id="totalStudentsChart" height="430" width="600"></canvas>
+        <div id="desertion-div">
+          <h3 id="absoluteTotal">Total</h3>
+          <canvas id="studentDesertion" height="240" width="240"></canvas>
+          <h3 id="absolutePercent">%</h3>
+          <canvas id="studentDesertionTwo" height="180" width="240"></canvas>          
+        </div>
+        <div id="overall-div">
+          <h3 id="overallPercent">%</h3>
+          <canvas id="overTotalPercent" height="250" width="350"></canvas>
+          <h3 id="absoluteTotalOverall">Total</h3>
+          <canvas id="overTotal" height="170" width="350"></canvas>
+        </div>
+        <!-- <canvas id="overSeventy" height="300" width="600"></canvas>
+        <canvas id="studentSatisfaction" height="300" width="300"></canvas>
+        <canvas id="lineChartCanvas" height="300" width="400"></canvas> -->        
+      </div>
     </section>
->>>>>>> 39839282f71781650196cefa4e0526b01c78f2d4
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
+    <!-- Graficos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 		<!-- Aquí va tus archivos JS -->
     <script src="./js/app.js"></script>
-
-<button id="menu">
-   <hr>
-   <hr>
-   <hr>
-</button>
-<div class="profesora">
-<h1>ANA DURANT</h1>
-<nav>
- <ul>
-    <li><a href="#"></a>Add estudent</li>
-    <li><a href="#"></a>Remuve estudent</li>
-    <li><a href="#"></a>Add sprint</li>
-
-    </ul>
-</nav>
-</div>
-
-
-  <script type="text/javascript" src="js/app.js"></script>
+    
   </body>
 </html>

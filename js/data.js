@@ -1061,9 +1061,211 @@ var data = {
           'jedi': 4.1
         }
       ]
-    }
+    },
+    '2017-2': {
+      'students': [        
+        {
+          'name': 'Lynnett Roughley',
+          'photo': 'http://dummyimage.com/240x189.png/cc0000/ffffff',
+          'active': false,
+          'sprints': [
+            {
+              'number': 1,
+              'score': {
+                'tech': 1729,
+                'hse': 1028
+              }
+            },
+            {
+              'number': 2,
+              'score': {
+                'tech': 1724,
+                'hse': 1043
+              }
+            },
+            {
+              'number': 3,
+              'score': {
+                'tech': 1537,
+                'hse': 1051
+              }
+            },
+            {
+              'number': 4,
+              'score': {
+                'tech': 1679,
+                'hse': 1119
+              }
+            }
+          ]
+        }
+      ],
+      'ratings': [
+        {
+          'sprint': 1,
+          'nps': {
+            'promoters': 70,
+            'passive': 15,
+            'detractors': 15
+          },
+          'student': {
+            'no-cumple': 14,
+            'cumple': 80,
+            'supera': 6
+          },
+          'teacher': 3.6,
+          'jedi': 3.6
+        },
+        {
+          'sprint': 2,
+          'nps': {
+            'promoters': 74,
+            'passive': 16,
+            'detractors': 10
+          },
+          'student': {
+            'no-cumple': 8,
+            'cumple': 82,
+            'supera': 10
+          },
+          'teacher': 3.8,
+          'jedi': 3.4
+        },
+        {
+          'sprint': 3,
+          'nps': {
+            'promoters': 78,
+            'passive': 13,
+            'detractors': 9
+          },
+          'student': {
+            'no-cumple': 17,
+            'cumple': 63,
+            'supera': 20
+          },
+          'teacher': 3.8,
+          'jedi': 4.3
+        },
+        {
+          'sprint': 4,
+          'nps': {
+            'promoters': 78,
+            'passive': 15,
+            'detractors': 7
+          },
+          'student': {
+            'no-cumple': 10,
+            'cumple': 70,
+            'supera': 20
+          },
+          'teacher': 3.2,
+          'jedi': 4.8
+        }
+      ]
+    },
   },
   'CDMX': {
+    '2016-2': {
+      'students': [
+        {
+          'name': 'Donna Sloper',
+          'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
+          'active': false,
+          'sprints': [
+            {
+              'number': 1,
+              'score': {
+                'tech': 1213,
+                'hse': 854
+              }
+            },
+            {
+              'number': 2,
+              'score': {
+                'tech': 1286,
+                'hse': 918
+              }
+            },
+            {
+              'number': 3,
+              'score': {
+                'tech': 1629,
+                'hse': 670
+              }
+            },
+            {
+              'number': 4,
+              'score': {
+                'tech': 1140,
+                'hse': 1017
+              }
+            }
+          ]
+        },
+      ],
+      'ratings': [
+        {
+          'sprint': 1,
+          'nps': {
+            'promoters': 70,
+            'passive': 15,
+            'detractors': 15
+          },
+          'student': {
+            'no-cumple': 14,
+            'cumple': 80,
+            'supera': 6
+          },
+          'teacher': 3.6,
+          'jedi': 3.6
+        },
+        {
+          'sprint': 2,
+          'nps': {
+            'promoters': 74,
+            'passive': 16,
+            'detractors': 10
+          },
+          'student': {
+            'no-cumple': 8,
+            'cumple': 82,
+            'supera': 10
+          },
+          'teacher': 3.8,
+          'jedi': 3.4
+        },
+        {
+          'sprint': 3,
+          'nps': {
+            'promoters': 78,
+            'passive': 13,
+            'detractors': 9
+          },
+          'student': {
+            'no-cumple': 17,
+            'cumple': 63,
+            'supera': 20
+          },
+          'teacher': 3.8,
+          'jedi': 4.3
+        },
+        {
+          'sprint': 4,
+          'nps': {
+            'promoters': 78,
+            'passive': 15,
+            'detractors': 7
+          },
+          'student': {
+            'no-cumple': 10,
+            'cumple': 70,
+            'supera': 20
+          },
+          'teacher': 3.2,
+          'jedi': 4.8
+        }
+      ]
+    },
     '2017-1': {
       'students': [
         {

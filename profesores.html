@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Data Dashboard - Estudiantes</title>
+  </head>
+  <body>
+    <header>
+      <div id="superior-menu">
+        <div id="img"></div>
+        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+      </div>
+      <div id="hq-menu" class="touppercase">
+        <select name="country" id="country">
+          <option value="SCL">Santiago de Chile</option>
+          <option value="AQP">Arequipa</option>
+          <option value="LIM">Lima</option>
+          <option value="CDMX">Ciudad de México</option>
+        </select>
+        <select name="year" id="year">
+          <!-- <option value="">2017-1</option> -->
+        </select>
+        <ol>
+          <li><a href="index.html">General</a></li>
+          <li><a href="students.html" id="studentsSite">Estudiantes</a></li>
+          <li><a href="profesores.html" class="menu-active">Profesores</a></li>
+        </ol>
+      </div>
+    </header>
+    <!-- <section id="average-points">
+      
+    </section> -->
+    <section id="teachers-section">
+      <div class="teacher">
+        <!-- <img src="assets/images/Viki.png" alt="" class="teacherPhoto">
+        <canvas id="overTotal4" height="200" width="200" class="teacher"></canvas>
+      </div>
+      <div class="teacher">
+        <canvas id="overTotal2" height="200" width="200" class="teacher"></canvas>
+      </div>
+      <div class="teacher">
+        <canvas id="overTotal3" height="200" width="200" class="teacher"></canvas>
+      </div>
+      <div class="teacher">
+        <canvas id="overTotal5" height="200" width="200" class="teacher"></canvas>
+      </div> -->
+    </section>
+  	<!-- Base de datos -->
+  	<script src="./js/data.js"></script>
+    <!-- Graficos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+  	<!-- Aquí va tus archivos JS -->
+    <script src="./js/app-teachers.js"></script>
+    
+  </body>
+</html>

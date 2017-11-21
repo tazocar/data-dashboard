@@ -1,93 +1,85 @@
-/*
- * Estilos de tu proyecto
- */
-<<<<<<< HEAD
-button{
-  width:50px;
-}
- .profesora{
-   color:black;
-   display: inline-block;
-   margin:30px;
-   list-style:none;
-  margin-left: 40%;
-  }
-
-  li{
-  background-color: #000;
-  color:#fff;
-  padding-top: 30px;
-  margin:10px;
-  padding: 40px;
-  width: 200px;
-
-
-  }
-nav{
-width: 200px;
-text-align: center;
-}
-
-ul{
-
-  list-style: none;
-  margin:0;
-  padding:0;
-  line-height: 30px;
-  text-align: center;
-}
-
-
-
-a{
-
-  display:block;
-  text-decoration: none;
-  color:#000;
-  padding-left: 10px;
-}
-
-a:hover{
-  background: #f9a91a;
-}
-
-a:active{
-  background: #333;
-}
-
-
-ul li:first-child a{
-  color:#fff;
-}
-ul li:first-child a:hover{
-color:#000;
-}
-ul li:first-child a:active{
-color:#fff;
-}
-=======
 body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 135px;
 }
 header{
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 2;
 }
+
+/*//////////////////////////////////////////*/
+nav{
+  width: 60%;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  margin-left: 350px;
+  margin-top: -58px;
+  }
+
+.foto{
+  width: 50px;
+  height: 50px;
+  float:left;
+  margin:20px;
+}
+
+#opcs-menu ul{
+padding: 40px;
+width: 300px;
+position: absolute;
+}
+#opcs-menu li{
+  padding-top: 30px;
+  background-color: #303030;
+  height: 60px;
+  margin:3px;
+}
+
+#opcs-menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+#opcs-menu a:hover{
+  color:#fff;
+  border-bottom: 4px solid #ffc107;
+
+}
+
+.enabled-menu{
+  display:block;
+
+}
+.disabled-menu{
+  display:none;
+}
+.fa.fa-bars.icono{
+	display: inline-block;
+	margin-top: -40px;
+}
+/*///////////////////////////////////*/
 .touppercase{
 	text-transform: uppercase;
 }
 #superior-menu{
-	padding:10px 20px 10px 40%;
+	padding:10px 20px 10px 43.5%;
 	box-sizing: border-box;
 	overflow: hidden;
+	background-color: #FFF;
 }
 #img{
-	width: 200px;
-	height: 50px;
-	background-color: red;
+	width: 190px;
+	height: 55px;
+	background-image:url(../assets/images/logo-laboratoria.svg);
+	background-size: 100%;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -109,6 +101,33 @@ header{
 	display: inline-block;
 	font-weight: bold;
 }
+#hq-menu #country{
+	border:none;
+	outline: none;
+	background-color:  #303030;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1.8em;
+	font-family: 'Open Sans', sans-serif;
+}
+#hq-menu select option{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	border:none;
+	outline: none;
+}
+#hq-menu #year{
+	border:none;
+	outline: none;
+	background-color:  #303030;
+	color: #f7b617;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.8em;
+	font-family: 'Open Sans', sans-serif;
+}
+
 #hq-menu ol{
 	list-style: none;
 	padding: 0;
@@ -129,11 +148,271 @@ header{
 	font-weight: bold;
 }
 #hq-menu li a:hover{
-	border-bottom: 4px solid #ffc107;
-	padding-bottom: 8px;
+	border-bottom: 4px solid #f7b617;
+	padding-bottom: 5px;
 }
 .menu-active{
-	border-bottom: 4px solid #ffc107;
-	padding-bottom: 8px;
+	border-bottom: 4px solid #f7b617;
+	padding-bottom: 5px;
 }
->>>>>>> 39839282f71781650196cefa4e0526b01c78f2d4
+#state{
+	width: 20%;
+	margin: 10px 0 0 15px;
+	background-color: #dddfe5;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: text-top;
+	padding: 0 15px 20px;
+}
+#state input{
+	margin-bottom: 15px;
+	vertical-align: -2px;
+}
+#container-students{
+	width: 77%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px;
+	vertical-align: text-top;
+}
+.img-student{
+	width: 115px;
+	height: 115px;
+	background-color: grey;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: text-top;
+}
+.student{
+	background-color: #dddfe5;
+	margin-bottom: 10px;
+	overflow: hidden;
+	clear: both;
+}
+.info-student{
+	display: inline-block;
+	vertical-align: text-top;
+	padding-left: 7px;
+	padding-top: 15px;
+}
+.info-student h5{
+	margin: 0;
+	font-size: .78em;
+	text-transform: uppercase;
+}
+.info-student h4{
+	margin: 0;
+	text-transform: uppercase;
+}
+.info-student p{
+	margin: 0;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: .8em;
+	line-height: 7px;
+	color: #FFF;
+	background-color: #303030;
+	padding: 5px 0 5px 5px;
+	width: 110px;
+}
+.student-active{
+	border-right: 15px solid #f7b617;
+}
+.student-inactive{
+	border-right: 15px solid #565656;
+}
+.student-points div{
+	display: inline-block;
+}
+#state button{
+	display: block;
+	padding: 20px 0;
+	width: 180px;
+	border:none;
+	outline: none;
+	background-color:#565656; 
+	margin: 6px auto;
+	color: #FFF;
+	cursor: pointer;
+	transition: all ease .3s;
+}
+#state button:hover{
+	background-color:#f7b617;
+	color: #000;
+	font-weight: bolder;
+	box-shadow: 2px 2px 2px #565656;
+}
+#state button:active{
+	background-color:#565656;
+	color: #FFF;
+	box-shadow: 0 0 0 #565656;
+}
+.student-points{
+	display: inline-block;
+	width: 65%;
+	vertical-align: text-top;
+	float: right;
+	margin-top: 7px;
+	color:#272727;
+}
+.assistance-points, .tecnic-points, .hse-points{
+	vertical-align: text-top;
+	margin: 0 5px;
+	padding: 10px;
+	float: right;
+	background-color: #FFF;
+	width: 80px;
+	height: 80px;
+}
+.assistance-points p:first-child, .tecnic-points p:first-child, .hse-points p:first-child{
+	margin: 0;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.tecnic-points p:nth-child(2), .hse-points p:nth-child(2){
+	margin: 0;
+	font-weight: 800;
+	font-size: 2em;
+	text-align: center;
+}
+.tecnic-points p:last-child, .hse-points p:last-child{
+	margin: 0;
+	text-align: center;
+}
+.assistance-points p:last-child{
+	margin: 0;
+	font-weight: 800;
+	font-size: 2em;
+	text-align: center;
+}
+.sprint{
+	display: inline-block;
+	text-align: center;
+	background-color: #a1a1a1;
+	color: #000;
+	padding: 3px;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+.sprint p:first-child{
+	font-weight: 700;
+	font-size: .8em;
+	margin:0;
+}
+.sprint p:nth-child(2){
+	font-weight: 800;
+	font-size: 1em;
+	margin:-2px;
+}
+.sprint p:last-child{
+	font-size: .8em;
+	margin:-4px;
+}
+.sprint-points{
+	overflow: hidden;
+	clear: both;
+}
+.counter-div{
+	background-color: #dddfe5;
+	border-top: 5px solid #303030;
+	width: 96.57%;
+	margin: 15px 0 0 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	clear: both;
+	padding: 4px 15px;
+}
+.counter-div span{
+	font-size: 1.5em;
+	color: #303030;
+	font-weight:700;
+	font-variant: small-caps;
+	display: block;
+	text-align: center;
+}
+canvas{
+	vertical-align: text-top;
+	/*outline: 1px solid black*/
+}
+#desertion-div{
+	display: inline-block;
+	height: 400px;
+	position: relative;
+}
+#studentDesertionTwo{
+	position: absolute;
+	padding-top: 10px;
+}
+#absoluteTotal{
+	position: absolute;
+	top: 110px;
+	left: 90px;
+	color: #696969;
+	z-index: -1;
+	font-size: 1.55em;
+}
+#absolutePercent{
+	position: absolute;
+	top: 258px;
+	left: 97px;
+	color: #696969;
+	font-size: 3em;
+	z-index: -1;
+}
+#overall-div{
+	position: relative;
+	display: inline-block;
+}
+#overallPercent{
+	position: absolute;
+	color: #696969;
+	font-size: 3em;
+	top: 77px;
+	left: 153px;
+	z-index: -1;
+}
+#overTotal{
+	padding-top: 10px;
+}
+#absoluteTotalOverall{
+	position: absolute;
+	color: #696969;
+	font-size: 1.6em;
+	top: 300px;
+	left: 142px;
+	z-index: -1;
+}
+#charts-div{
+	display: inline-block;
+	padding: 20px;
+	margin-left: 2.7%;
+}
+.teacher{
+	display: inline-block;
+	box-sizing: border-box;
+	clear: both;
+}
+#teachers-section{
+	display: inline-block;
+	width: 80%;
+	margin-left: 14%;
+}
+.teacher{
+	padding: 10px;
+	position: relative;
+}
+.teacherPhoto{
+	width: 73px;
+	border-radius: 50%;
+	position: absolute;
+	top: 90.5px;
+	left: 73.5px;
+	z-index: -1;
+}
+#average-points{
+	padding-left: 38%;
+}
